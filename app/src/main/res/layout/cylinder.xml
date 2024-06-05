@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="150dp"
+	android:layout_height="150dp"
+	app:layout_constraintRight_toRightOf="@id/revolver"
+	app:layout_constraintBottom_toBottomOf="@id/revolver"
+	tools:showIn="@layout/activity_main">
+	
+	<ImageView
+		android:id="@+id/cylinder"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:contentDescription="@string/cylinder_content_desc"
+		android:src="@raw/cylinder" />
+	
+	<androidx.appcompat.widget.AppCompatButton
+		android:id="@+id/bullet_1"
+		android:layout_width="28dp"
+		android:layout_height="28dp"
+		android:layout_marginStart="61dp"
+		android:layout_marginTop="14dp"
+		android:background="#00000000"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+	
+	<androidx.appcompat.widget.AppCompatButton
+		android:id="@+id/bullet_2"
+		android:layout_width="28dp"
+		android:layout_height="29dp"
+		android:layout_marginStart="103.3dp"
+		android:layout_marginTop="37.5dp"
+		android:background="#00000000"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+	
+	<androidx.appcompat.widget.AppCompatButton
+		android:id="@+id/bullet_3"
+		android:layout_width="28dp"
+		android:layout_height="29dp"
+		android:layout_marginStart="103.3dp"
+		android:layout_marginTop="84dp"
+		android:background="#00000000"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+	
+	<androidx.appcompat.widget.AppCompatButton
+		android:id="@+id/bullet_4"
+		android:layout_width="28dp"
+		android:layout_height="28dp"
+		android:layout_marginStart="61dp"
+		android:layout_marginTop="107.7dp"
+		android:background="#00000000"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+	
+	<androidx.appcompat.widget.AppCompatButton
+		android:id="@+id/bullet_5"
+		android:layout_width="28dp"
+		android:layout_height="29dp"
+		android:layout_marginStart="18.7dp"
+		android:layout_marginTop="84dp"
+		android:background="#00000000"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+	
+	<androidx.appcompat.widget.AppCompatButton
+		android:id="@+id/bullet_6"
+		android:layout_width="28dp"
+		android:layout_height="29dp"
+		android:layout_marginStart="18.7dp"
+		android:layout_marginTop="37.5dp"
+		android:background="#00000000"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

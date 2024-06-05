@@ -1,0 +1,5 @@
+<resources>
+	<string name="app_name">Russian Roulette</string>
+	<string name="revolver_content_desc">Revolver</string>
+	<string name="cylinder_content_desc">Cylinder</string>
+</resources>
